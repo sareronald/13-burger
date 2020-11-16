@@ -1,0 +1,101 @@
+<div class="jumbotron text-center bg-primary text-white">
+    <div class="container">
+        <h1 class="burger-title"> <img src="/assets/images/shutterstock_1697852191_sml_btn.png" height="80px"
+                width="80px" /> Eat-da-Burger</h1>
+        <div class="wavy-line"></div>
+    </div>
+    <hr class="thick" />
+</div>
+
+<section class="container-fluid content">
+    <div class="row text-center">
+        <aside class="col-md-4">
+            <img src="/assets/images/shutterstock_1012462708_crop.jpg" alt="Delicious Burger" width="400px"
+                height="600px" />
+        </aside>
+        <div class="col-md-8">
+            <div class="card border border-primary">
+                <div class="card-header bg-primary text-white">
+                    <h3>Can I take your order?</h3>
+                </div>
+                <!--Create/add burger form-->
+                <div class="card-body">
+                    <form class="create-form">
+                        <div class="form-group">
+                            <label for="burger">Enter the Burger you would like to eat and click Add burger...</label>
+                            <input type="text" class="form-control" id="gourmetBurger"
+                                placeholder="What is your favourite burger...">
+                        </div>
+                        <button class="btn btn-primary burger-text text-center" type="submit"><img
+                                src="/assets/images/shutterstock_1697852191_sml_btn.png" width=50px height=50px
+                                class="mr-2"><br>Add burger</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <article class="card border border-primary">
+                        <div class="card-header bg-primary text-white">
+                            <h3>Burgers that need eating!</h3>
+                        </div>
+                        {{!-- Div to hold delicious burgers --}}
+                        <div class="card-body">
+                            {{#each burgers}}
+                            {{#unless devoured}}
+                            <div class="mt-2">
+                                <h4>{{burger_name}}</h4>
+                                <!--Devour me button-->
+                                <button class="change-devour btn btn-outline-primary burger-text" data-id="{{id}}"
+                                    data-newdevour=1>
+                                    <img src="/assets/images/shutterstock_1697852191_sml_btn.png" width=25px height=25px
+                                        class="mr-2"> Devour me
+                                </button>
+                            </div>
+                            {{/unless}}
+                            {{/each}}
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <article class="card border border-primary">
+                        <div class="card-header bg-primary text-white">
+                            <h3>Burgers that you ate!</h3>
+                        </div>
+                        {{!-- Any eaten burgers get moved here after click event--}}
+                        <div class="card-body">
+                            {{#each burgers}}
+                            {{#if devoured}}
+                            <div class="mt-2">
+                                <h4>{{burger_name}}</h4>
+                                <!--Throw away burger button-->
+                                <button class="delete-burger btn btn-outline-primary burger-text"
+                                    data-id="{{this.id}}"><i class="far fa-trash-alt"></i> Throw away</button>
+                            </div>
+                            {{/if}}
+                            {{/each}}
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{!-- Footer --}}
+<div class="row mt-5">
+    <div class="col-md-12">
+        <div class="card footer">
+            <div class="card-body footer-body text-black text-center">
+                <a href="https://github.com/sareronald/13-node-express-handlebar.git" class="btn btn-primary mr-2"
+                    target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sarah-ronald-b141b4114/" class="btn btn-primary" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <br>
+                <small>Last updated 16th November 2020</small>
+
+            </div>
+        </div>
+    </div>
+</div>
