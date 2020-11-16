@@ -34,6 +34,7 @@ function objToSql(ob) {
 
 // Object for all our SQL statement functions.
 let orm = {
+  // Select all (Burgers) function/query
   selectAll: function (tableInput, cb) {
     let queryString = "SELECT * FROM " + tableInput + ";";
     connection.query(queryString, function (err, result) {
@@ -44,6 +45,7 @@ let orm = {
     });
   },
 
+  // Add/Create a burger function/query
   insertOne: function (table, cols, vals, cb) {
     let queryString = "INSERT INTO " + table;
 
@@ -65,6 +67,8 @@ let orm = {
     });
   },
 
+  // Update a burger function/query
+  // An example of objColVals would be {name: panther, sleepy: true}
   updateOne: function (table, objColVals, condition, cb) {
     let queryString = "UPDATE " + table;
 
@@ -83,6 +87,7 @@ let orm = {
     });
   },
 
+  // Delete a burger function
   delete: function (table, condition, cb) {
     let queryString = "DELETE FROM " + table;
     queryString += " WHERE ";
