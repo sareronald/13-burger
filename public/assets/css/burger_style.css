@@ -1,0 +1,28 @@
+.burger-title {
+  font-family: "Lobster", cursive;
+  font-size: 5em;
+  letter-spacing: 0.2em;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Lobster", cursive;
+  font-size: 1.5em;
+  letter-spacing: 0.06em;
+}
+
+.burger-text {
+  font-family: "Lobster", cursive;
+}
+
+hr.thick {
+  border: 0;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  height: 8px;
+  background-image: linear-gradient(90deg, #ff3c00, #e1a500, #ffffff);
+  border-radius: 5px;
+}

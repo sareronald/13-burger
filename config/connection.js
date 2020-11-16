@@ -1,6 +1,9 @@
 // Set up MySQL connection.
 const mysql = require("mysql");
 
+//Read and set any environment variables with the dotenv package.
+require("dotenv").config();
+
 const connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
