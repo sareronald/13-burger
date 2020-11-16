@@ -7,7 +7,6 @@ Unit 13 Node Express HandleBars - Burger Logger with MySQL, Node, Express, Handl
 This Burger Logger for Burger Delicious is a MVC (Model-View-Controller) application that allows users to create burgers, view burgers, devour burgers and throw away burgers. 
 
 ## Table of Contents
-- - -
 * [Link to the App](#Link-to-the-App)
 * [About this project](#About-this-project)
 * [Installation](#Installation)
@@ -20,12 +19,10 @@ This Burger Logger for Burger Delicious is a MVC (Model-View-Controller) applica
 * [Authors](#Authors)
 
 ## Link to the App
-- - -
 Please visit my GitHub page for a copy of the code for <a href="https://github.com/sareronald/13-burger.git">this application.</a>
 Please visit the <a href="">Burger Logger application</a> hosted on Heroku.
 
 ## About this project
-- - -
 ### **How the app works**
 This project uses front end and back end design to create a burger logger. When you add a burger to the form field and click on the button, the name is entered into the list of burgers found on the left. Each burger has a Devour Me button and when this is clicked, the burger name moves to the list on the right - to the list of burgers that have been devoured (devoured = true). Once there, each burger has a Throw Away button that allows you to remove the burger - deleting the burger from the user interface and the MySQL database. 
 
@@ -58,7 +55,6 @@ This project follows MVC (Model-View-Controller) design pattern, which is a form
 <br>
 
 ## Installation
-- - -
 Follow these instructions if you would like to set this application up on your local computer. Alternatively, you can also access the deployed application by going to ("")
 
 1. **Clone this GitHub repository**
@@ -101,7 +97,6 @@ npm start
 <br>
 
 ## Files
-- - -
 This MVC application consists of the following files:
 | File                | Relative Path          |
 | ------------------- | ---------------------- |
@@ -121,34 +116,30 @@ This MVC application consists of the following files:
 <br>
 
 ## Screenshots
-- - - 
 
 #### **Screenshot of application**
 
+<br>
 
 ## Licence
-- - -
 - [Apache License 2.0](http://www.apache.org/licenses/)
 <br>
 
 ## Acknowledgements
-- - -
 * Images have been sourced from [Shutterstock](https://www.shutterstock.com/home)
 * [Font Awesome](https://fontawesome.com/) for the Throw Away trash can icon.
 <br>
 
 ## Contributing
-- - -
 Any contributions are appreciated. Be sure to review the contributing guidelines and code of conduct. By participating, you are expected to uphold this code. Use your best judgement and feel free to propose changes to this document in a pull request. Should you have any questions, feel free to contact me directly using the email below.
 <br>
 
 ## Issues
-- - -
 If you find an issue while using the app or have a request, [log the issue or request here](https://github.com/sareronald/13-burger/issues). These will be addressed in a future code update.
 <br>
 
-## Authors
 - - -
+## Authors
 - **SARAH RONALD** -
   Contact information:
   sareronald@hotmail.com,
