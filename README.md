@@ -19,8 +19,8 @@ This Burger Logger for Burger Delicious is a MVC (Model-View-Controller) applica
 * [Authors](#Authors)
 
 ## Link to the App
-Please visit my GitHub page for a copy of the code for <a href="https://github.com/sareronald/13-burger.git">this application.</a>
-Please visit the <a href="">Burger Logger application</a> hosted on Heroku.
+Please visit my <a href="https://github.com/sareronald/13-burger.git">GitHub repository</a> for a copy of the code for this application.<br>
+Please visit the <a href="https://tranquil-woodland-78404.herokuapp.com/">Burger Logger </a>application, hosted on Heroku.
 
 ## About this project
 ### **How the app works**
@@ -55,7 +55,7 @@ This project follows MVC (Model-View-Controller) design pattern, which is a form
 <br>
 
 ## Installation
-Follow these instructions if you would like to set this application up on your local computer. Alternatively, you can also access the deployed application by going to ("")
+Follow these instructions if you would like to set this application up on your local computer. Alternatively, you can also access the deployed application by going to https://tranquil-woodland-78404.herokuapp.com/
 
 1. **Clone this GitHub repository**
 
@@ -126,7 +126,7 @@ This MVC application consists of the following files:
 <br>
 
 ## Acknowledgements
-* Images have been sourced from [Shutterstock](https://www.shutterstock.com/home)
+* Images have been sourced from [Shutterstock](https://www.shutterstock.com/home).
 * [Font Awesome](https://fontawesome.com/) for the Throw Away trash can icon.
 <br>
 
@@ -135,12 +135,13 @@ Any contributions are appreciated. Be sure to review the contributing guidelines
 <br>
 
 ## Issues
-If you find an issue while using the app or have a request, [log the issue or request here](https://github.com/sareronald/13-burger/issues). These will be addressed in a future code update.
+If you find an issue while using the app or have a request, [log the issue](https://github.com/sareronald/13-burger/issues) or request here. These will be addressed in a future code update.
 <br>
+<hr>
 
-- - -
 ## Authors
-- **SARAH RONALD** -
+- **SARAH RONALD** <br>
   Contact information:
-  sareronald@hotmail.com,
-  [GitHub repo](https://github.com/sareronald)
+  sareronald@hotmail.com <br>
+  GitHub link:
+  [sareronald](https://github.com/sareronald)
