@@ -117,9 +117,12 @@ This MVC application consists of the following files:
 
 ## Screenshots
 
-#### **Screenshot of application**
-
+#### **Walthrough of application**
+![Eat-da-Burger_walkthrough](https://user-images.githubusercontent.com/67722377/99215791-1caf8580-2828-11eb-9a14-99604086cde4.gif)
 <br>
+
+#### **Screenshot of application**
+![ScreenShot-Eat-da-burger-phone](https://user-images.githubusercontent.com/67722377/99216593-1e7a4880-282a-11eb-9b75-48a76bda3653.png)
 
 ## Licence
 - [Apache License 2.0](http://www.apache.org/licenses/)
